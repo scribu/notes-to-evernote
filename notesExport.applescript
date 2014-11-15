@@ -25,7 +25,8 @@ end firstChars
 on writeToFile(filename, filecontents)
 	set the output to open for access file filename with write permission
 	set eof of the output to 0
-	write filecontents to the output starting at eof
+	write ((ASCII character 239) & (ASCII character 187) & (ASCII character 191)) to output
+	write filecontents to the output starting at eof as «class utf8»
 	close access the output
 end writeToFile
 
