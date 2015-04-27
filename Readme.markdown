@@ -2,16 +2,14 @@
 
 ## Summary
 
-Apple's [OS X Mountain Lion](http://www.apple.com/osx/) introduced [Notes.app](http://www.apple.com/osx/whats-new/features.html#notes) — a simple and convenient note-taking application.
-
-**Notes to Evernote** is a small utility for exporting notes stored in Notes.app to Evernote.
+**Notes to Evernote** is a small utility for migrating notes stored in Apple's Notes.app to Evernote.
 
 Usage:
 
 1. Open `notesExport.applescript` and run it to get an Evernote Export (ENEX) file.
 3. In Evernote, run File -> Import Notes and select the ENEX file created in the previous step.
 
-This app is compatible with OS X Mavericks and OS X Yosemite.
+This script is compatible with OS X Mavericks and OS X Yosemite.
 
 ## License
 
